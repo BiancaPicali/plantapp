@@ -1,0 +1,28 @@
+ion-content{
+  background-color: rgb(206, 205, 205);
+}
+ion-item{
+  --min-height: 30px;
+  ion-label{
+    margin: 0;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color:rgb(62, 66, 66)
+  }
+  ion-note{
+    margin: 0;
+    height: 30px;
+    font-size: 0.8rem;
+    color:rgb(151, 167, 167)
+  }
+}
+img{
+  min-height: 70px;
+  max-height: 70px;
+
+
+}
+ion-card{
+  max-width: 95px;
+}

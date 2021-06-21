@@ -1,17 +1,48 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
+<ion-header [translucent]="true" >
+  <ion-toolbar color="green">
+    <ion-title color="light">
+      Mídia
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="https://img.freepik.com/fotos-gratis/maos-plantando-uma-arvore_56296-23.jpg?size=626&ext=jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label>
+              Técnicas para plantio
+            </ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="https://th.bing.com/th/id/Rded872ef5047546b9b09038a6c38aa12?rik=S%2fC7ZigvNNYwvQ&riu=http%3a%2f%2fblog.giulianaflores.com.br%2fwp-content%2fuploads%2f2016%2f02%2fjardinagem.jpg&ehk=9M9Wp%2fyHn2VJaxjoZ2t%2b%2fXNmJXveeKL%2fQiblx6c3wdA%3d&risl=&pid=ImgRaw">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label>
+              Benefícios da jardinagem
+            </ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="https://www.biocontrol.co.za/wp-content/uploads/2018/09/Enjoy-a-Better-Farm-with-Proper-Aphid-Control.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label>
+              Se livre dos pulgões
+            </ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
